@@ -74,7 +74,7 @@ const Login = () => {
                 </form>
                 <div  id='ch' style={{display:'flex',marginTop:"20px"}}>
                 <p className='mt-4 text-center text-gray-600'  style={{fontSize:'30px'}}>
-                    Don't have an account? 
+                    Do not have an account? 
                     {/* <GoogleButton onClick={signInWithGoogle} /> */}
                     <Link to={"/signup"} className='text-blue-500 hover:underline' style={{backgroundColor:'lightblue'}}>Signup</Link>
                 </p>
