@@ -6,6 +6,7 @@ import { TbSend2 } from 'react-icons/tb';
 import { useDispatch } from 'react-redux';
 import { setOpen } from '../redux/appSlice';
 
+
 const sidebarItems = [
     {
         icon: <MdInbox size={'20px'} />,
@@ -43,6 +44,7 @@ const Sidebar = () => {
     };
 
     return (
+        <div className='side' style={{position:"relative",paddingTop:"60px" }}>
         <div className='w-[15%]'>
             <div className='p-3'>
                 <button
@@ -72,6 +74,7 @@ const Sidebar = () => {
                     })
                 }
             </div>
+        </div>
         </div>
     );
 };
