@@ -55,7 +55,7 @@ const SendEmail = () => {
             dispatch(setOpen(false));
         }
     };
-
+console.log(open)
     return (
         <div className={`${open ? 'block' : 'hidden'} bg-white max-w-3xl mx-auto shadow-xl shadow-slate-600 rounded-t-md`}>
             <div className='flex items-center justify-between px-4 py-3 bg-[#F2F6FC]'>
