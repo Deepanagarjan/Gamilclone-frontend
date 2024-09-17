@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Outlet, useNavigate } from 'react-router-dom';
 import Sidebar from '../Components/SideBar';
 import { useSelector } from 'react-redux';
-import Navbar from './Navbar';
+import Navbar from '../Components/navbar';
 
 const Body = () => {
   const { user } = useSelector((store) => store.app);
