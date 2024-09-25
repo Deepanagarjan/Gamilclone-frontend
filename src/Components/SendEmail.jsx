@@ -30,7 +30,7 @@ const SendEmail = () => {
 
         setLoading(true);
         try {
-            const res = await axios.post("http://localhost:5000/api/v1/email/create", formData, {
+            const res = await axios.post("https://gmailclone-backend-vwi4.onrender.com/api/v1/email/create", formData, {
                 headers: {
                     'Content-Type': "application/json"
                 },

@@ -15,7 +15,7 @@ const Mail = () => {
     const params = useParams();
     const deleteHandler = async () => {
         try {
-            const res = await axios.delete(`http://localhost:5000/api/v1/email/${params.id}`,{withCredentials:true});
+            const res = await axios.delete(`https://gmailclone-backend-vwi4.onrender.com/api/v1/email/${params.id}`,{withCredentials:true});
             toast.success(res.data.message);
             navigate("/");
         } catch (error) {

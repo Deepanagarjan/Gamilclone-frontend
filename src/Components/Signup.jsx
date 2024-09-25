@@ -37,7 +37,7 @@ const Signup = () => {
     setLoading(true);
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/v1/user/register",
+        "https://gmailclone-backend-vwi4.onrender.com/api/v1/user/register",
         input,
         {
           headers: {

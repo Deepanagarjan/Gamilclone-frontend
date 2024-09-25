@@ -10,7 +10,7 @@ const useGetAllEmails = () => {
         let isMounted = true; // Track component mount status
         const fetchEmails = async () => {
             try {
-                const res = await axios.get("http://localhost:5000/api/v1/email/getallemails", {
+                const res = await axios.get("https://gmailclone-backend-vwi4.onrender.com/api/v1/email/getallemails", {
                     withCredentials: true
                 });
                 if (isMounted) {
