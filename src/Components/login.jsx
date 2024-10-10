@@ -22,9 +22,10 @@ const Login = () => {
         try {
             const res = await axios.post("https://gmailclone-backend-vwi4.onrender.com/api/v1/user/login", input, {
                 headers: {
-                    'Content-Type': "application/json"
+                    'Content-Type': "application/json",
+                     
                 },
-                withCredentials: true
+                withCredentials: true,
             });
 
             if (res.data.success) {
