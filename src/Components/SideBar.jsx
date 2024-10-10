@@ -48,7 +48,11 @@ const Sidebar = () => {
         <div className='w-[15%]'>
             <div className='p-3'>
                 <button
-                    onClick={() => dispatch(setOpen(true))}
+                
+                    onClick={() => {
+                        console.log("clicked");
+                        dispatch(setOpen(true))
+                    }}
                     className='flex items-center gap-2 bg-[#C2E7FF] p-4 rounded-2xl hover:shadow-md'
                     aria-label="Compose new email"
                 >

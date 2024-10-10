@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const appSlice = createSlice({
   name: "app",
   initialState: {
-    open: false, // Controls visibility of the compose modal
+    open: true, // Controls visibility of the compose modal
     user: null,  // Stores authenticated user info
     emails: [],  // Stores list of fetched emails
     selectedEmail: null, // Currently selected email for viewing

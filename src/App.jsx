@@ -4,7 +4,7 @@ import Inbox from './Components/Inbox';
 // import Sidebar from './Components/SideBar';
 import Body from './Components/Body';
 import Mail from './Components/mail';
-// import SendEmail from './Components/SendEmail';
+import SendEmail from './Components/SendEmail';
 import Login from './Components/login';
 import Signup from './Components/Signup';
 import { Toaster } from 'react-hot-toast';
@@ -51,7 +51,7 @@ function App() {
       {user && (
         <div className='flex'>
         <Toaster />
-        {/* <SendEmail /> */}
+        <SendEmail />
     </div>
       )}
     
