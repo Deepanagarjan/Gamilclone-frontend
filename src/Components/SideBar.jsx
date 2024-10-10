@@ -50,7 +50,7 @@ const Sidebar = () => {
                 <button
                 
                     onClick={() => {
-                        console.log("clicked");
+                        // console.log("clicked");
                         dispatch(setOpen(true))
                     }}
                     className='flex items-center gap-2 bg-[#C2E7FF] p-4 rounded-2xl hover:shadow-md'
